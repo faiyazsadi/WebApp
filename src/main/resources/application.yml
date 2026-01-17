@@ -16,4 +16,4 @@ spring:
 
   docker:
     compose:
-      enabled: false
+      enabled: true
