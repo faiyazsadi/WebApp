@@ -71,6 +71,6 @@ class StudentIntegrationTest {
         // Assert: Ensure the service sees the real DB data
         // Note: Using >= because other tests might have committed data if @Rollback(false) was used elsewhere
         assertTrue(allStudents.size() >= 2);
-        assertTrue(1 == 2);
+        assertTrue(5 == 2);
     }
 }
