@@ -17,7 +17,7 @@
 #  docker:
 #    compose:
 #      enabled: false
-#
+
 
 spring:
 
@@ -37,4 +37,3 @@ spring:
 
 server:
   port: ${PORT:8080}
-
